@@ -116,8 +116,10 @@ Exemplo:
     ‘Oeste’
 """
 
+
 class Car:
     pass
+
 
 class Motor:
     def __init__(self):
@@ -128,3 +130,7 @@ class Motor:
 
     def frear(self):
         self.velocidade -= 2
+
+
+class Direcao:
+    pass
